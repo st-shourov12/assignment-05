@@ -6,40 +6,317 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" /> -->
 </head>
 <body>
-    <main class="bg-[#43ff64d9] p-16">
-        <section class="grid-cols-9">
-            <div class="card p-8">
-                <figure class="flex">
-                    <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
-                        <img src="./assets/emergency.png" width="32px" height="32px" alt="">
+    <main class="bg-[#43ff64d9] grid grid-cols-4 p-16 gap-8">
+
+        <section class="col-span-3 gap-6">
+            <div class="grid grid-cols-3 gap-6">
+                <div class="card bg-[#fff] p-8 rounded-xl">
+                    <figure class="flex justify-between items-center">
+                        <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
+                            <img src="./assets/emergency.png" width="32px" height="32px" alt="">
+                        </div>
+                        <div id="heart-btn" class="heart-btn h-[32px] w-[32px]">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        
+                    </figure>
+                    <h2 class="text-2xl font-bold">
+                        National Emergency Number
+                    </h2>
+                    <p class="text-lg text-[#5c5c5c]">
+                        National Emergency Number
+                    </p>
+                    <h2 class="mt-6 text-[32px] font-bold my-2">
+                        999
+                    </h2>
+                    <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
+                        All
+                    </span>
+                    <div class="btn-grp flex gap-2 mt-3 justify-between w-full">
+                        <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
+                            <i class="fa-regular fa-copy"></i>
+                            Copy
+                        </button>
+                        <button class="btn-primary bg-[#00A63E] w-1/2 text-white flex gap-2 justify-center items-center px-4 py-3 rounded-xl">
+                            <i class="fa-solid fa-phone"></i>
+                            Call
+                        </button>
                     </div>
-                    
-                    <img src="./assets/heart-2.png" alt="">
-                </figure>
-                <h2>
-                    National Emergency Number
-                </h2>
-                <p>
-                    National Emergency Number
-                </p>
-                <h2 class="mt-2">
-                    999
-                </h2>
-                <p class="badge">
-                    All
-                </p>
-                <div class="btn-grp">
-                    <button>Copy</button>
-                    <button class="btn-primary">
-                        Call
-                    </button>
                 </div>
+                <div class="card bg-[#fff] p-8 rounded-xl">
+                    <figure class="flex justify-between items-center">
+                        <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
+                            <img src="./assets/emergency.png" width="32px" height="32px" alt="">
+                        </div>
+                        <div id="heart-btn" class="heart-btn h-[32px] w-[32px]">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        
+                    </figure>
+                    <h2 class="text-2xl font-bold">
+                        National Emergency Number
+                    </h2>
+                    <p class="text-lg text-[#5c5c5c]">
+                        National Emergency Number
+                    </p>
+                    <h2 class="mt-6 text-[32px] font-bold my-2">
+                        999
+                    </h2>
+                    <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
+                        All
+                    </span>
+                    <div class="btn-grp flex gap-2 w-full mt-3 justify-between">
+                        <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
+                            <i class="fa-regular fa-copy"></i>
+                            Copy
+                        </button>
+                        <button class="btn-primary bg-[#00A63E] w-1/2 text-white flex gap-2 justify-center items-center px-4 py-3 rounded-xl">
+                            <i class="fa-solid fa-phone"></i>
+                            Call
+                        </button>
+                    </div>
+                </div>
+                <div class="card bg-[#fff] p-8 rounded-xl">
+                    <figure class="flex justify-between items-center">
+                        <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
+                            <img src="./assets/emergency.png" width="32px" height="32px" alt="">
+                        </div>
+                        <div id="heart-btn" class="heart-btn h-[32px] w-[32px]">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        
+                    </figure>
+                    <h2 class="text-2xl font-bold">
+                        National Emergency Number
+                    </h2>
+                    <p class="text-lg text-[#5c5c5c]">
+                        National Emergency Number
+                    </p>
+                    <h2 class="mt-6 text-[32px] font-bold my-2">
+                        999
+                    </h2>
+                    <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
+                        All
+                    </span>
+                    <div class="btn-grp flex gap-2 w-full mt-3 justify-between">
+                        <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
+                            <i class="fa-regular fa-copy"></i>
+                            Copy
+                        </button>
+                        <button class="btn-primary bg-[#00A63E] w-1/2 text-white flex gap-2 justify-center items-center px-4 py-3 rounded-xl">
+                            <i class="fa-solid fa-phone"></i>
+                            Call
+                        </button>
+                    </div>
+                </div>
+                <div class="card bg-[#fff] p-8 rounded-xl">
+                    <figure class="flex justify-between items-center">
+                        <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
+                            <img src="./assets/emergency.png" width="32px" height="32px" alt="">
+                        </div>
+                        <div id="heart-btn" class="heart-btn h-[32px] w-[32px]">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        
+                    </figure>
+                    <h2 class="text-2xl font-bold">
+                        National Emergency Number
+                    </h2>
+                    <p class="text-lg text-[#5c5c5c]">
+                        National Emergency Number
+                    </p>
+                    <h2 class="mt-6 text-[32px] font-bold my-2">
+                        999
+                    </h2>
+                    <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
+                        All
+                    </span>
+                    <div class="btn-grp flex gap-2 w-full mt-3 justify-between">
+                        <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
+                            <i class="fa-regular fa-copy"></i>
+                            Copy
+                        </button>
+                        <button class="btn-primary bg-[#00A63E] w-1/2 text-white flex gap-2 justify-center items-center px-4 py-3 rounded-xl">
+                            <i class="fa-solid fa-phone"></i>
+                            Call
+                        </button>
+                    </div>
+                </div>
+                <div class="card bg-[#fff] p-8 rounded-xl">
+                    <figure class="flex justify-between items-center">
+                        <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
+                            <img src="./assets/emergency.png" width="32px" height="32px" alt="">
+                        </div>
+                        <div id="heart-btn" class="heart-btn h-[32px] w-[32px]">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        
+                    </figure>
+                    <h2 class="text-2xl font-bold">
+                        National Emergency Number
+                    </h2>
+                    <p class="text-lg text-[#5c5c5c]">
+                        National Emergency Number
+                    </p>
+                    <h2 class="mt-6 text-[32px] font-bold my-2">
+                        999
+                    </h2>
+                    <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
+                        All
+                    </span>
+                    <div class="btn-grp flex gap-2 w-full mt-3 justify-between">
+                        <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
+                            <i class="fa-regular fa-copy"></i>
+                            Copy
+                        </button>
+                        <button class="btn-primary bg-[#00A63E] w-1/2 text-white flex gap-2 justify-center items-center px-4 py-3 rounded-xl">
+                            <i class="fa-solid fa-phone"></i>
+                            Call
+                        </button>
+                    </div>
+                </div>
+                <div class="card bg-[#fff] p-8 rounded-xl">
+                    <figure class="flex justify-between items-center">
+                        <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
+                            <img src="./assets/emergency.png" width="32px" height="32px" alt="">
+                        </div>
+                        <div id="heart-btn" class="heart-btn h-[32px] w-[32px]">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        
+                    </figure>
+                    <h2 class="text-2xl font-bold">
+                        National Emergency Number
+                    </h2>
+                    <p class="text-lg text-[#5c5c5c]">
+                        National Emergency Number
+                    </p>
+                    <h2 class="mt-6 text-[32px] font-bold my-2">
+                        999
+                    </h2>
+                    <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
+                        All
+                    </span>
+                    <div class="btn-grp flex gap-2 w-full mt-3 justify-between">
+                        <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
+                            <i class="fa-regular fa-copy"></i>
+                            Copy
+                        </button>
+                        <button class="btn-primary bg-[#00A63E] w-1/2 text-white flex gap-2 justify-center items-center px-4 py-3 rounded-xl">
+                            <i class="fa-solid fa-phone"></i>
+                            Call
+                        </button>
+                    </div>
+                </div>
+                <div class="card bg-[#fff] p-8 rounded-xl">
+                    <figure class="flex justify-between items-center">
+                        <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
+                            <img src="./assets/emergency.png" width="32px" height="32px" alt="">
+                        </div>
+                        <div id="heart-btn" class="heart-btn h-[32px] w-[32px]">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        
+                    </figure>
+                    <h2 class="text-2xl font-bold">
+                        National Emergency Number
+                    </h2>
+                    <p class="text-lg text-[#5c5c5c]">
+                        National Emergency Number
+                    </p>
+                    <h2 class="mt-6 text-[32px] font-bold my-2">
+                        999
+                    </h2>
+                    <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
+                        All
+                    </span>
+                    <div class="btn-grp flex gap-2 w-full mt-3 justify-between">
+                        <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
+                            <i class="fa-regular fa-copy"></i>
+                            Copy
+                        </button>
+                        <button class="btn-primary bg-[#00A63E] w-1/2 text-white flex gap-2 justify-center items-center px-4 py-3 rounded-xl">
+                            <i class="fa-solid fa-phone"></i>
+                            Call
+                        </button>
+                    </div>
+                </div>
+                <div class="card bg-[#fff] p-8 rounded-xl">
+                    <figure class="flex justify-between items-center">
+                        <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
+                            <img src="./assets/emergency.png" width="32px" height="32px" alt="">
+                        </div>
+                        <div id="heart-btn" class="heart-btn h-[32px] w-[32px]">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        
+                    </figure>
+                    <h2 class="text-2xl font-bold">
+                        National Emergency Number
+                    </h2>
+                    <p class="text-lg text-[#5c5c5c]">
+                        National Emergency Number
+                    </p>
+                    <h2 class="mt-6 text-[32px] font-bold my-2">
+                        999
+                    </h2>
+                    <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
+                        All
+                    </span>
+                    <div class="btn-grp flex gap-2 w-full mt-3 justify-between">
+                        <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
+                            <i class="fa-regular fa-copy"></i>
+                            Copy
+                        </button>
+                        <button class="btn-primary bg-[#00A63E] w-1/2 text-white flex gap-2 justify-center items-center px-4 py-3 rounded-xl">
+                            <i class="fa-solid fa-phone"></i>
+                            Call
+                        </button>
+                    </div>
+                </div>
+                <div class="card bg-[#fff] p-8 rounded-xl">
+                    <figure class="flex justify-between items-center">
+                        <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
+                            <img src="./assets/emergency.png" width="32px" height="32px" alt="">
+                        </div>
+                        <div id="heart-btn" class="heart-btn h-[32px] w-[32px]">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        
+                    </figure>
+                    <h2 class="text-2xl font-bold">
+                        National Emergency Number
+                    </h2>
+                    <p class="text-lg text-[#5c5c5c]">
+                        National Emergency Number
+                    </p>
+                    <h2 class="mt-6 text-[32px] font-bold my-2">
+                        999
+                    </h2>
+                    <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
+                        All
+                    </span>
+                    <div class="btn-grp flex gap-2 w-full mt-3 justify-between">
+                        <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
+                            <i class="fa-regular fa-copy"></i>
+                            Copy
+                        </button>
+                        <button class="btn-primary bg-[#00A63E] w-1/2 text-white flex gap-2 justify-center items-center px-4 py-3 rounded-xl">
+                            <i class="fa-solid fa-phone"></i>
+                            Call
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+            
         </section>
-        <section class="grid-cols-3">
+        <section class="bg-white border ">
 
         </section>
     </main>
