@@ -11,10 +11,50 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" /> -->
 </head>
 <body>
-    <main class="bg-[#43ff64d9] grid grid-cols-4 p-16 gap-8">
+    <header>
+        <div class="navigation px-8 py-6 flex justify-between items-center">
+            <div class="logo flex items-center">
+                <img src="./assets/logo.png" width="30px" height="30px" alt="">
+                <h2 class="font-bold text-xl text-[#006747] leading-5">Emergency <br> Service</h2>
+            </div>
+            <div class="left-nav flex gap-4 items-center">
+                <div class="heart-nav bg-[#41ff6b1a] font-bold px-4 h-[52px] rounded-2xl flex items-center gap-1">
+                    <span id="heart-count">
+                        0
+                    </span>
+                    <img src="./assets/heart.png" width="30px" height="30px" alt="">
+                </div>
+                <div class="coin bg-[#41ff6b1a] font-bold px-4 h-[52px] flex gap-1 items-center rounded-xl">
+                    <span id="coin-count">
+                        100
+                    </span>
+                    <img src="./assets/coin.png" width="23.25px" height="23.22px" alt="">
+                </div>
+                <div class="copy-count bg-[#00A63E] text-white px-4 h-[52px] gap-1 items-center flex rounded-xl">
+                    <span id="copy-count">
+                        0
+                    </span>
+                    <span>Copy</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- hero section -->
+        <div class="hero bg-linear-to-r from-[#013223] via-[#006747] to-[#013223] py-8 text-white text-center">
+            <figure class="flex justify-center">
+                <img src="./assets/logo-dark.png" class="h-[60px] w-[60px]" alt="">
+            </figure>
+            
+            <h1 class="font-bold text-3xl my-4">Emergency Service Directory</h1>
+            <p class="text-xl font-semibold">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+        </div>
+    </header>
+    <main class="bg-[#41ff6b1a] grid grid-cols-4 p-16 gap-8">
 
         <section class="col-span-3 gap-6">
             <div class="grid grid-cols-3 gap-6">
+
+                <!-- =====Card 1===== -->
                 <div class="card bg-[#fff] p-8 rounded-xl">
                     <figure class="flex justify-between items-center">
                         <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
@@ -48,10 +88,13 @@
                         </button>
                     </div>
                 </div>
+
+
+                <!-- =====Card 2===== -->
                 <div class="card bg-[#fff] p-8 rounded-xl">
                     <figure class="flex justify-between items-center">
                         <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
-                            <img src="./assets/emergency.png" width="32px" height="32px" alt="">
+                            <img src="./assets/police.png" width="32px" height="32px" alt="">
                         </div>
                         <div id="heart-btn" class="heart-btn h-[32px] w-[32px]">
                             <i class="fa-regular fa-heart"></i>
@@ -59,16 +102,16 @@
                         
                     </figure>
                     <h2 class="text-2xl font-bold">
-                        National Emergency Number
+                        Police Helpline Number
                     </h2>
                     <p class="text-lg text-[#5c5c5c]">
-                        National Emergency Number
+                        Police
                     </p>
                     <h2 class="mt-6 text-[32px] font-bold my-2">
                         999
                     </h2>
                     <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
-                        All
+                        Police
                     </span>
                     <div class="btn-grp flex gap-2 w-full mt-3 justify-between">
                         <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
@@ -81,10 +124,13 @@
                         </button>
                     </div>
                 </div>
+
+
+                <!-- =====Card 3===== -->
                 <div class="card bg-[#fff] p-8 rounded-xl">
                     <figure class="flex justify-between items-center">
                         <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
-                            <img src="./assets/emergency.png" width="32px" height="32px" alt="">
+                            <img src="./assets/fire-service.png" width="32px" height="32px" alt="">
                         </div>
                         <div id="heart-btn" class="heart-btn h-[32px] w-[32px]">
                             <i class="fa-regular fa-heart"></i>
@@ -92,16 +138,16 @@
                         
                     </figure>
                     <h2 class="text-2xl font-bold">
-                        National Emergency Number
+                        Fire Service Number
                     </h2>
                     <p class="text-lg text-[#5c5c5c]">
-                        National Emergency Number
+                        Fire Service
                     </p>
                     <h2 class="mt-6 text-[32px] font-bold my-2">
                         999
                     </h2>
                     <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
-                        All
+                        Fire
                     </span>
                     <div class="btn-grp flex gap-2 w-full mt-3 justify-between">
                         <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
@@ -114,10 +160,13 @@
                         </button>
                     </div>
                 </div>
+
+
+                <!-- =====Card 4===== -->
                 <div class="card bg-[#fff] p-8 rounded-xl">
                     <figure class="flex justify-between items-center">
                         <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
-                            <img src="./assets/emergency.png" width="32px" height="32px" alt="">
+                            <img src="./assets/ambulance.png" width="32px" height="32px" alt="">
                         </div>
                         <div id="heart-btn" class="heart-btn h-[32px] w-[32px]">
                             <i class="fa-regular fa-heart"></i>
@@ -125,16 +174,16 @@
                         
                     </figure>
                     <h2 class="text-2xl font-bold">
-                        National Emergency Number
+                        Ambulance Service
                     </h2>
                     <p class="text-lg text-[#5c5c5c]">
-                        National Emergency Number
+                        Ambulance
                     </p>
                     <h2 class="mt-6 text-[32px] font-bold my-2">
-                        999
+                        199499999
                     </h2>
                     <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
-                        All
+                        Health
                     </span>
                     <div class="btn-grp flex gap-2 w-full mt-3 justify-between">
                         <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
@@ -147,6 +196,9 @@
                         </button>
                     </div>
                 </div>
+
+
+                <!-- =====Card 5===== -->
                 <div class="card bg-[#fff] p-8 rounded-xl">
                     <figure class="flex justify-between items-center">
                         <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
@@ -158,16 +210,16 @@
                         
                     </figure>
                     <h2 class="text-2xl font-bold">
-                        National Emergency Number
+                        Women & Child Helpline
                     </h2>
                     <p class="text-lg text-[#5c5c5c]">
-                        National Emergency Number
+                        Women & Child Helpline
                     </p>
                     <h2 class="mt-6 text-[32px] font-bold my-2">
-                        999
+                        109
                     </h2>
                     <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
-                        All
+                        Help
                     </span>
                     <div class="btn-grp flex gap-2 w-full mt-3 justify-between">
                         <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
@@ -180,6 +232,9 @@
                         </button>
                     </div>
                 </div>
+
+
+                <!-- =====Card 6===== -->
                 <div class="card bg-[#fff] p-8 rounded-xl">
                     <figure class="flex justify-between items-center">
                         <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
@@ -191,16 +246,16 @@
                         
                     </figure>
                     <h2 class="text-2xl font-bold">
-                        National Emergency Number
+                        Anti-Corruption Helpline
                     </h2>
                     <p class="text-lg text-[#5c5c5c]">
-                        National Emergency Number
+                        Anti-Corruption
                     </p>
                     <h2 class="mt-6 text-[32px] font-bold my-2">
-                        999
+                        106
                     </h2>
                     <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
-                        All
+                        Govt.
                     </span>
                     <div class="btn-grp flex gap-2 w-full mt-3 justify-between">
                         <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
@@ -213,6 +268,9 @@
                         </button>
                     </div>
                 </div>
+
+
+                <!-- =====Card 7===== -->
                 <div class="card bg-[#fff] p-8 rounded-xl">
                     <figure class="flex justify-between items-center">
                         <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
@@ -224,16 +282,16 @@
                         
                     </figure>
                     <h2 class="text-2xl font-bold">
-                        National Emergency Number
+                       Electricity Helpline
                     </h2>
                     <p class="text-lg text-[#5c5c5c]">
-                        National Emergency Number
+                        Electricity Outage
                     </p>
                     <h2 class="mt-6 text-[32px] font-bold my-2">
-                        999
+                        16216
                     </h2>
                     <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
-                        All
+                        Electricity
                     </span>
                     <div class="btn-grp flex gap-2 w-full mt-3 justify-between">
                         <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
@@ -246,10 +304,13 @@
                         </button>
                     </div>
                 </div>
+
+
+                <!-- =====Card 8===== -->
                 <div class="card bg-[#fff] p-8 rounded-xl">
                     <figure class="flex justify-between items-center">
                         <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
-                            <img src="./assets/emergency.png" width="32px" height="32px" alt="">
+                            <img src="./assets/brac.png" width="32px" height="32px" alt="">
                         </div>
                         <div id="heart-btn" class="heart-btn h-[32px] w-[32px]">
                             <i class="fa-regular fa-heart"></i>
@@ -257,16 +318,16 @@
                         
                     </figure>
                     <h2 class="text-2xl font-bold">
-                        National Emergency Number
+                        Brac Helpline
                     </h2>
                     <p class="text-lg text-[#5c5c5c]">
-                        National Emergency Number
+                        Brac
                     </p>
                     <h2 class="mt-6 text-[32px] font-bold my-2">
-                        999
+                        16445
                     </h2>
                     <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
-                        All
+                        NGO
                     </span>
                     <div class="btn-grp flex gap-2 w-full mt-3 justify-between">
                         <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
@@ -279,10 +340,13 @@
                         </button>
                     </div>
                 </div>
+
+
+                <!-- =====Card 9===== -->
                 <div class="card bg-[#fff] p-8 rounded-xl">
                     <figure class="flex justify-between items-center">
                         <div class="bg-[#ffe3e2] p-[14px] rounded-2xl">
-                            <img src="./assets/emergency.png" width="32px" height="32px" alt="">
+                            <img src="./assets/Bangladesh-Railway.png" width="32px" height="32px" alt="">
                         </div>
                         <div id="heart-btn" class="heart-btn h-[32px] w-[32px]">
                             <i class="fa-regular fa-heart"></i>
@@ -290,16 +354,16 @@
                         
                     </figure>
                     <h2 class="text-2xl font-bold">
-                        National Emergency Number
+                        Bangladesh Railway Helpline 
                     </h2>
                     <p class="text-lg text-[#5c5c5c]">
-                        National Emergency Number
+                        Bangladesh Railway
                     </p>
                     <h2 class="mt-6 text-[32px] font-bold my-2">
-                        999
+                        163
                     </h2>
                     <span class="my-2 badge bg-[#f2f2f2] px-4 py-2 rounded-[9999px]">
-                        All
+                        Travel
                     </span>
                     <div class="btn-grp flex gap-2 w-full mt-3 justify-between">
                         <button class="btn-secondary text-[#5C5C5C] w-1/2 border border-[#d8d0d0] flex gap-2 justify-center px-4 py-3 rounded-xl items-center">
@@ -316,8 +380,25 @@
             </div>
             
         </section>
-        <section class="bg-white border ">
-
+        <section class="bg-white rounded-2xl p-4 ">
+            <div class="history flex items-center justify-between">
+                <div class="call-history flex items-center gap-1">
+                    <i class="fa-solid fa-clock text-gray-500"></i>
+                    <h3 class="font-medium" >
+                        Call History
+                    </h3>
+                </div>
+                <button class="bg-[#00A63E] text-white rounded-2xl py-2 px-4">Clear</button>
+            </div>
+            <div class="parent-history mt-6">
+                <div class="history-t bg-[#fafafa] p-4 flex justify-between items-center rounded-xl" >
+                    <div class="intro">
+                        <h3 class="text-[18px] font-semibold">Name</h3>
+                        <p class="">Number</p>
+                    </div>
+                    <div class="time">Time</div>
+                </div>
+            </div>
         </section>
     </main>
 </body>
