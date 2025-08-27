@@ -1,0 +1,13 @@
+.btn-primary:hover {
+    
+    background-color: #034b1d 
+}
+
+.btn-secondary:hover {
+    background-color: #221c1c;
+    color: white;
+}
+
+#clear-btn:hover{
+    background-color: #034b1d 
+}
