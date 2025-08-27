@@ -1,6 +1,7 @@
 .btn-primary:hover {
     
-    background-color: #034b1d 
+    background-color: #034b1d ;
+
 }
 
 .btn-secondary:hover {
@@ -10,4 +11,9 @@
 
 #clear-btn:hover{
     background-color: #034b1d 
+}
+
+
+button , .fa-heart{
+    cursor: pointer;
 }
