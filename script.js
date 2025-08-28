@@ -39,9 +39,9 @@ for (let i = 0 ; i< callBtns.length ; i++) {
             const parentDiv = document.getElementById("parent-history") ;
             const div = document.createElement("div");
             div.innerHTML = `
-                <div class="history-t bg-[#fafafa] p-4 mt-4 flex justify-between items-center rounded-xl" >
+                <div class="history-t bg-[#fafafa] p-4 lg:p-2 2xl:p-4 mt-4 flex justify-between gap-1 items-center rounded-xl" >
                     <div class="intro">
-                        <h3 class="text-[18px] font-semibold">${data.name}</h3>
+                        <h3 class="xl:text-[18px] font-semibold">${data.name}</h3>
                         <p class="">${data.phoneNumber}</p>
                     </div>
                     <div class="time">${data.setTime}</div>
@@ -67,9 +67,9 @@ for (let i = 0 ; i< callBtns.length ; i++) {
             const parentDiv = document.getElementById("parent-history") ;
             const div = document.createElement("div");
             div.innerHTML = `
-                <div class="history-t bg-[#fafafa] p-4 mt-4 flex justify-between items-center rounded-xl" >
+                <div class="history-t bg-[#fafafa] p-4 lg:p-2 2xl:p-4 mt-4 flex justify-between gap-1 items-center rounded-xl" >
                     <div class="intro">
-                        <h3 class="text-[18px] font-semibold">${data.name}</h3>
+                        <h3 class="xl:text-[18px] font-semibold">${data.name}</h3>
                         <p class="">${data.phoneNumber}</p>
                     </div>
                     <div class="time">${data.setTime}</div>
@@ -94,9 +94,9 @@ for (let i = 0 ; i< callBtns.length ; i++) {
             const parentDiv = document.getElementById("parent-history") ;
             const div = document.createElement("div");
             div.innerHTML = `
-                <div class="history-t bg-[#fafafa] p-4 mt-4 flex justify-between items-center rounded-xl" >
+                <div class="history-t bg-[#fafafa] p-4 lg:p-2 2xl:p-4 mt-4 flex justify-between gap-1 items-center rounded-xl" >
                     <div class="intro">
-                        <h3 class="text-[18px] font-semibold">${data.name}</h3>
+                        <h3 class="xl:text-[18px] font-semibold">${data.name}</h3>
                         <p class="">${data.phoneNumber}</p>
                     </div>
                     <div class="time">${data.setTime}</div>
@@ -121,9 +121,9 @@ for (let i = 0 ; i< callBtns.length ; i++) {
             const parentDiv = document.getElementById("parent-history") ;
             const div = document.createElement("div");
             div.innerHTML = `
-                <div class="history-t bg-[#fafafa] p-4 mt-4 flex justify-between items-center rounded-xl" >
+                <div class="history-t bg-[#fafafa] p-4 lg:p-2 2xl:p-4 mt-4 flex justify-between gap-1 items-center rounded-xl" >
                     <div class="intro">
-                        <h3 class="text-[18px] font-semibold">${data.name}</h3>
+                        <h3 class="xl:text-[18px] font-semibold">${data.name}</h3>
                         <p class="">${data.phoneNumber}</p>
                     </div>
                     <div class="time">${data.setTime}</div>
@@ -150,9 +150,9 @@ for (let i = 0 ; i< callBtns.length ; i++) {
             const parentDiv = document.getElementById("parent-history") ;
             const div = document.createElement("div");
             div.innerHTML = `
-                <div class="history-t bg-[#fafafa] p-4 mt-4 flex justify-between items-center rounded-xl" >
+                <div class="history-t bg-[#fafafa] p-4 lg:p-2 2xl:p-4 mt-4 flex justify-between gap-1 items-center rounded-xl" >
                     <div class="intro">
-                        <h3 class="text-[18px] font-semibold">${data.name}</h3>
+                        <h3 class="xl:text-[18px] font-semibold">${data.name}</h3>
                         <p class="">${data.phoneNumber}</p>
                     </div>
                     <div class="time">${data.setTime}</div>
@@ -177,9 +177,9 @@ for (let i = 0 ; i< callBtns.length ; i++) {
             const parentDiv = document.getElementById("parent-history") ;
             const div = document.createElement("div");
             div.innerHTML = `
-                <div class="history-t bg-[#fafafa] p-4 mt-4 flex justify-between items-center rounded-xl" >
+                <div class="history-t bg-[#fafafa] p-4 lg:p-2 2xl:p-4 mt-4 flex justify-between gap-1 items-center rounded-xl" >
                     <div class="intro">
-                        <h3 class="text-[18px] font-semibold">${data.name}</h3>
+                        <h3 class="xl:text-[18px] font-semibold">${data.name}</h3>
                         <p class="">${data.phoneNumber}</p>
                     </div>
                     <div class="time">${data.setTime}</div>
@@ -203,9 +203,9 @@ for (let i = 0 ; i< callBtns.length ; i++) {
             const parentDiv = document.getElementById("parent-history") ;
             const div = document.createElement("div");
             div.innerHTML = `
-                <div class="history-t bg-[#fafafa] p-4 mt-4 flex justify-between items-center rounded-xl" >
+                <div class="history-t bg-[#fafafa] p-4 lg:p-2 2xl:p-4 mt-4 flex justify-between gap-1 items-center rounded-xl" >
                     <div class="intro">
-                        <h3 class="text-[18px] font-semibold">${data.name}</h3>
+                        <h3 class="xl:text-[18px] font-semibold">${data.name}</h3>
                         <p class="">${data.phoneNumber}</p>
                     </div>
                     <div class="time">${data.setTime}</div>
@@ -230,9 +230,9 @@ for (let i = 0 ; i< callBtns.length ; i++) {
             const parentDiv = document.getElementById("parent-history") ;
             const div = document.createElement("div");
             div.innerHTML = `
-                <div class="history-t bg-[#fafafa] p-4 mt-4 flex justify-between items-center rounded-xl" >
+                <div class="history-t bg-[#fafafa] p-4 lg:p-2 2xl:p-4 mt-4 flex justify-between gap-1 items-center rounded-xl" >
                     <div class="intro">
-                        <h3 class="text-[18px] font-semibold">${data.name}</h3>
+                        <h3 class="xl:text-[18px] font-semibold">${data.name}</h3>
                         <p class="">${data.phoneNumber}</p>
                     </div>
                     <div class="time">${data.setTime}</div>
@@ -258,9 +258,9 @@ for (let i = 0 ; i< callBtns.length ; i++) {
             const parentDiv = document.getElementById("parent-history") ;
             const div = document.createElement("div");
             div.innerHTML = `
-                <div class="history-t bg-[#fafafa] p-4 mt-4 flex justify-between items-center rounded-xl" >
+                <div class="history-t bg-[#fafafa] p-4 lg:p-2 2xl:p-4 mt-4 flex justify-between gap-1 items-center rounded-xl" >
                     <div class="intro">
-                        <h3 class="text-[18px] font-semibold">${data.name}</h3>
+                        <h3 class="xl:text-[18px] font-semibold">${data.name}</h3>
                         <p class="">${data.phoneNumber}</p>
                     </div>
                     <div class="time">${data.setTime}</div>
@@ -280,6 +280,9 @@ for (let i = 0 ; i< callBtns.length ; i++) {
 };
 
 
+
+
+// copy button
 const copyBtns = document.getElementsByClassName("btn-secondary");
 
 const copyData = [];

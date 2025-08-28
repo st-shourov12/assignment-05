@@ -12,32 +12,35 @@
 </head>
 <body>
     <header>
-        <div class="navigation p-4 sm:px-8 sm:py-6 flex justify-between items-center">
-            <div class="logo flex items-center">
-                <img src="./assets/logo.png" width="30px" height="30px" alt="">
-                <h2 class="font-bold text-xl text-[#006747] leading-5">Emergency <br> Service</h2>
+        <!-- <div class="fixed top-0 h-[100px] bg-white w-full"> -->
+
+            <div class="navigation p-4 sm:px-8 sm:py-6 flex justify-between items-center">
+                <div class="logo flex items-center">
+                    <img src="./assets/logo.png" width="30px" height="30px" alt="">
+                    <h2 class="font-bold text-xl text-[#006747] leading-5">Emergency <br> Service</h2>
+                </div>
+                <div class="left-nav flex gap-4 items-center">
+                    <div class="heart-nav bg-[#41ff6b1a] font-bold px-4 h-[52px] rounded-2xl flex items-center gap-1">
+                        <span id="heart-count">
+                            0
+                        </span>
+                        <img src="./assets/heart.png" width="30px" height="30px" alt="">
+                    </div>
+                    <div class="coin bg-[#41ff6b1a] font-bold px-4 h-[52px] flex gap-1 items-center rounded-xl">
+                        <span id="coin-count">
+                            100
+                        </span>
+                        <img src="./assets/coin.png" width="23.25px" height="23.22px" alt="">
+                    </div>
+                    <div class="copy-count bg-[#00A63E] text-white px-4 h-[52px] gap-1 items-center flex rounded-xl">
+                        <span id="copy-count">
+                            0
+                        </span>
+                        <span>Copy</span>
+                    </div>
+                </div>
             </div>
-            <div class="left-nav flex gap-4 items-center">
-                <div class="heart-nav bg-[#41ff6b1a] font-bold px-4 h-[52px] rounded-2xl flex items-center gap-1">
-                    <span id="heart-count">
-                        0
-                    </span>
-                    <img src="./assets/heart.png" width="30px" height="30px" alt="">
-                </div>
-                <div class="coin bg-[#41ff6b1a] font-bold px-4 h-[52px] flex gap-1 items-center rounded-xl">
-                    <span id="coin-count">
-                        100
-                    </span>
-                    <img src="./assets/coin.png" width="23.25px" height="23.22px" alt="">
-                </div>
-                <div class="copy-count bg-[#00A63E] text-white px-4 h-[52px] gap-1 items-center flex rounded-xl">
-                    <span id="copy-count">
-                        0
-                    </span>
-                    <span>Copy</span>
-                </div>
-            </div>
-        </div>
+        <!-- </div> -->
 
         <!-- hero section -->
         <div class="hero bg-linear-to-r from-[#013223] via-[#006747] to-[#013223] px-4 py-8 text-white text-center">
@@ -114,7 +117,7 @@
                             Police Helpline Number
                         </h2>
                         <p class="text-lg text-[#5c5c5c]">
-                            Police Helpline Number
+                            Police
                         </p>
                     </div>
                     <div class="fl">
@@ -439,10 +442,10 @@
             </div>
             
         </section>
-        <section class="bg-white rounded-2xl p-4 ">
+        <section class="bg-white history-section rounded-2xl p-4 ">
             <div class="history flex items-center justify-between">
                 <div class="call-history flex items-center gap-1">
-                    <i class="fa-solid fa-clock text-gray-500"></i>
+                    <i class="fa-solid fa-clock "></i>
                     <h3 class="font-medium" >
                         Call History
                     </h3>
