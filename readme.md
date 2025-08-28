@@ -1,6 +1,6 @@
-## Assignent-05
+### Assignent-05
 
-1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
+1. ## What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
 
 - getElementById() used for a specific unique id . So we can trigger an event directly , It will be generating faster than any other selector . 
 
@@ -10,9 +10,9 @@
 
 - querySelectorAll() used for all elements which was matched like css selector("".class", "#id") or html tags (p, div , h1, h2 or other tag also). It contains Nodelist (array like object ). It cant be updated when we changes on DOM , it will remain static. For trigerring an event we have creat a loop like getElementsByClassName().
 
+--- 
 
-
-2. How do you **create and insert a new element into the DOM**?
+2. ## How do you **create and insert a new element into the DOM**?
 
 - I can creat an element by using document.createElement("tagName") , where tagname can be html tag like p, h1, h2, div,span,section, or other element . then I can call an parent id or class , where i want to insert the creat tag . I can use
 
@@ -21,7 +21,9 @@
 
 - If I want to creat an element and set this element before or after an element , I can use prepend() for inserting before  or append() for inserting end of the element.
 
-3. What is **Event Bubbling** and how does it work?
+---
+
+3. ## What is **Event Bubbling** and how does it work?
 
 - If we trigger an event  in a child element , it will work from the element, and also work in the parent , grand parent element . 
 
@@ -35,15 +37,17 @@
 - [note: we have to call this span , div , body, section by using getElementById, getElementsByClassName, and querySelector / querySelectorAll ]
 
 
+---
 
-4. What is **Event Delegation** in JavaScript? Why is it useful?
+4. ## What is **Event Delegation** in JavaScript? Why is it useful?
 
 - I can use single event listener in a common parent element instead of using all child element . it makes our coding smooth and easier . It is event delegation ..
 
 - It is so useful for writting code easier , it performs well , and easy to read code for client . It works on dynamic Content.
 
+---
 
-5. What is the difference between **preventDefault() and stopPropagation()** methods?
+5. ## What is the difference between **preventDefault() and stopPropagation()** methods?
 
 - preventDefault() is work on submit type form , where it close the default behaviour of the form element . If we use a button in form , it will be work for submit button . There we can use preventDefault() to close the default behaviour.
 
