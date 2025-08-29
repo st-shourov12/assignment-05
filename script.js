@@ -1,3 +1,5 @@
+// Countiing Heart
+
 const heartBtns = document.getElementsByClassName("heart-btn");
 
 for (const heartBtn of heartBtns) {
@@ -12,7 +14,6 @@ for (const heartBtn of heartBtns) {
 };
 
 
-
 const callBtns = document.getElementsByClassName("btn-primary");
 
 const title = document.getElementsByClassName("card-title");
@@ -25,9 +26,10 @@ const copyBtns = document.getElementsByClassName("btn-secondary");
 
 for (let i = 0 ; i < callBtns.length ; i++) {
     callBtns[i].addEventListener("click", function(){
-        let coin = parseInt(document.getElementById("coin-count").innerText);
 
-        
+        // call button
+
+        let coin = parseInt(document.getElementById("coin-count").innerText);
 
         function call(){
             coin = coin - 20 ;
@@ -65,9 +67,9 @@ for (let i = 0 ; i < callBtns.length ; i++) {
             alert("❗ You don't have sufficient Coin . You need minimum 20 coin to call again ❗")
         }
 
-       
-
     });
+
+    // copy button
 
     copyBtns[i].addEventListener("click" , function(){
 
@@ -91,10 +93,7 @@ for (let i = 0 ; i < callBtns.length ; i++) {
 
 };
 
-
-
-
-// copy button
+// Clear button
 
 
 document.getElementById("clear-btn").addEventListener("click" , function(){
@@ -105,9 +104,3 @@ document.getElementById("clear-btn").addEventListener("click" , function(){
     }
 
 });
-
-
-
-
-
-
