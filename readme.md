@@ -1,6 +1,6 @@
 ### Assignent-05
 
-1. ## What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
+## 1. What is the difference between **getElementById, getElementsByClassName, and querySelector / querySelectorAll**?
 
 - getElementById() used for a specific unique id . So we can trigger an event directly , It will be generating faster than any other selector . 
 
@@ -12,7 +12,7 @@
 
 --- 
 
-2. ## How do you **create and insert a new element into the DOM**?
+## 2. How do you **create and insert a new element into the DOM**?
 
 - I can creat an element by using document.createElement("tagName") , where tagname can be html tag like p, h1, h2, div,span,section, or other element . then I can call an parent id or class , where i want to insert the creat tag . I can use
 
@@ -23,7 +23,7 @@
 
 ---
 
-3. ## What is **Event Bubbling** and how does it work?
+## 3. What is **Event Bubbling** and how does it work?
 
 - If we trigger an event  in a child element , it will work from the element, and also work in the parent , grand parent element . 
 
@@ -39,7 +39,7 @@
 
 ---
 
-4. ## What is **Event Delegation** in JavaScript? Why is it useful?
+## 4. What is **Event Delegation** in JavaScript? Why is it useful?
 
 - I can use single event listener in a common parent element instead of using all child element . it makes our coding smooth and easier . It is event delegation .. It works like event bubbling , but reverse . Event bubbling work from child to parent and Event delegation work from parent to child . In event delegation we use **event.target**
 
@@ -47,17 +47,17 @@
 
 ---
 
-5. ## What is the difference between **preventDefault() and stopPropagation()** methods?
+## 5. What is the difference between **preventDefault() and stopPropagation()** methods?
 
 - preventDefault() is work on submit type form , where it close the default behaviour of the form element . If we use a button in form , it will be work for submit button . There we can use preventDefault() to close the default behaviour.
 
 
 - stopPropagation() is work on event Bubbling , here it close the  Bubbling so that the parent div could not triggered by child element . 
 
--- suppose : we make a html file ,
+- suppose : we make a html file ,
 
--- html>body>section>div>span 
+- html>body>section>div>span 
 
--- if we triggered on span element and use stopPropagation(), the parent element wont be triggered . We can use this for closing bubble .
+- if we triggered on span element and use stopPropagation(), the parent element wont be triggered . We can use this for closing bubble .
 
 
