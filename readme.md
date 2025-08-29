@@ -54,10 +54,10 @@
 
 - stopPropagation() is work on event Bubbling , here it close the  Bubbling so that the parent div could not triggered by child element . 
 
- suppose : we make a html file ,
+-- suppose : we make a html file ,
 
- html>body>section>div>span 
+-- html>body>section>div>span 
 
- if we triggered on span element and use stopPropagation(), the parent element wont be triggered . We can use this for closing bubble .
+-- if we triggered on span element and use stopPropagation(), the parent element wont be triggered . We can use this for closing bubble .
 
 
